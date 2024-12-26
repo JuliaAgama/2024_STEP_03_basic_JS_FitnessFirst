@@ -1,6 +1,6 @@
 "use strict";
 
-// import { DATA } from './_data.js';
+
 const DATA = [
 	{
 		"first name": "Олексій",
@@ -252,11 +252,6 @@ const DATA = [
 
 /***** СОРТУВАННЯ  *****/
 
-// import { saveSorting } from './_sorting.js';
-// import { changeActiveSorter } from './_sorting.js';
-// import { sortCards } from './_sorting.js';
-
-
 // записуємо критерій сортування в localStorage:
 
 function saveSorting(elem, key) {
@@ -299,10 +294,6 @@ function sortCards(cardsContainer, value) {
 /*-------------------------------------------------------------------------------*/
 
 /***** ФІЛЬТРАЦІЯ  *****/
-
-// import { saveFiltering } from './_filtering.js';
-// import { changeCheckedFilters } from './_filtering.js';
-// import { filterCards } from './_filtering.js';
 
 
 // записуємо критерії фільтрування в localStorage:
@@ -357,9 +348,6 @@ function filterCards(cardList, ...criteria) {
 
 /***** МОДАЛЬНЕ ВІКНО - КАРТКА ТРЕНЕРА *****/
 
-// import { createModal } from './_modal.js';
-// import { removeModal } from './_modal.js';
-
 
 // створюємо модалку тренера:
 
@@ -397,10 +385,6 @@ function removeModal() {
 /*-------------------------------------------------------------------------------*/
 
 /***** PRE-LOADER  *****/
-
-// import { createPreloader } from './_preloader.js';
-// import { removePreloader } from './_preloader.js';
-// import { waitLoad } from './_preloader.js';
 
 
 // стоворюємо pre-loader:
