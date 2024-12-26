@@ -1,5 +1,6 @@
 "use strict";
 
+console.log( ' hello world')
 import { DATA } from './_data.js';
 
 import { saveSorting } from './_sorting.js';
