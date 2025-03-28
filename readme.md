@@ -1,4 +1,4 @@
-# Task
+# Brief
 
 Program the functionality of the coach viewing page.
 
